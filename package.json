@@ -26,7 +26,8 @@
   "dependencies": {
     "node-hid": "^0.5.1",
     "soef": "^0.1.4",
-    "rimraf": "^2.4.3"
+    "rimraf": "^2.4.3",
+    "@iobroker/adapter-core": "^1.0.3"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
@@ -34,7 +35,7 @@
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-jscs": "^3.0.1",
     "grunt-http": "^2.2.0",
-    "mocha": "^3.5.3",
+    "mocha": "^6.0.2",
     "chai": "^4.1.2"
   },
   "bugs": {
@@ -43,6 +44,6 @@
   "readmeFilename": "README.md",
   "main": "main.js",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha"
+    "test": "node node_modules/mocha/bin/mocha --exit"
   }
 }
